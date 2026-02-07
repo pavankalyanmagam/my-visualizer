@@ -46,7 +46,7 @@ public final class JavaTracer {
     private static final int MAX_HEAP_OBJECTS = 500;
     private static final int MAX_ARRAY_ITEMS = 200;
     private static final int MAX_NODE_DEPTH = 60;
-    private static final int MAX_TIME_LIMIT_SECONDS = 5;
+    private static final int MAX_TIME_LIMIT_SECONDS = 15;
 
     private JavaTracer() {
     }
