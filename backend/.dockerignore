@@ -1,0 +1,6 @@
+target
+.idea
+.vscode
+*.class
+bin
+.DS_Store

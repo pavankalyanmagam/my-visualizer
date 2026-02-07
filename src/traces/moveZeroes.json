@@ -1,0 +1,25 @@
+{
+  "title": "Move Zeroes",
+  "language": "Java",
+  "code": "public void moveZeroes(int[] nums) {\n  int writePos = 0;\n  for (int readPos = 0; readPos < nums.length; readPos++) {\n    if (nums[readPos] != 0) {\n      int temp = nums[writePos];\n      nums[writePos] = nums[readPos];\n      nums[readPos] = temp;\n      writePos++;\n    }\n  }\n}",
+  "inputs": [
+    {
+      "id": "input-1",
+      "label": "Input 1",
+      "value": "nums = [0, 1, 0, 3, 12]",
+      "trace": []
+    },
+    {
+      "id": "input-2",
+      "label": "Input 2",
+      "value": "nums = [1, 0, 2, 0, 4, 5]",
+      "trace": []
+    },
+    {
+      "id": "input-3",
+      "label": "Input 3",
+      "value": "nums = [0, 0, 0, 1]",
+      "trace": []
+    }
+  ]
+}
